@@ -1,0 +1,46 @@
+.login{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.login .container{
+    overflow: hidden;
+    width: 100%;
+}
+
+.login .forgot-form{
+    margin-top: 1rem;
+    border-radius: 2ex;
+    border: 1pt solid #e3e3e3;
+}
+
+.login  .logo-img{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img img{
+    margin-top: 4rem;
+}
+.forgot-form .form-data p{
+    font-size: 14px;
+    color: grey
+}
+.form-data{
+    padding: 30px;
+}
+
+
+.form-data span{
+    font-size: 13px;
+    
+    color: #333333;
+}
+
+.count {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,22 @@
+#table-header {
+    border-bottom: 1px solid #F6F7F8;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #30323A;
+}
+
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}

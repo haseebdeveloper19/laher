@@ -1,0 +1,133 @@
+.col-md-3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  }
+  
+  .box.box-primary {
+    border-top-color: #3c8dbc;
+    border-top-color: #428db7;
+  }
+  
+  .box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    /* padding: 10px; */
+    padding: 15px 10px 15px 10px;
+  }
+  
+  .box-header:before, .box-body:before, .box-footer:before, .box-header:after, .box-body:after, .box-footer:after {
+    content: " ";
+    display: table;
+  }
+  
+  #profileImage img {
+    height: 115px;
+    width: 115px;
+  }
+  #profileImage img {
+    cursor: pointer;
+  }
+  .profile-user-img {
+    margin: 0 auto;
+    width: 100px;
+    padding: 3px;
+    border: 3px solid #d2d6de;
+  }
+  .img-circle {
+    border-radius: 50%;
+  }
+  .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  img {
+    vertical-align: middle;
+  }
+  
+  #overlay {
+    text-align: center;
+    padding: 17px 0px 73px 0px;
+    opacity: 1;
+    -webkit-transition: opacity 0.25s ease;
+    -moz-transition: opacity 0.25s ease;
+    margin: 0 auto;
+    width: 115px;
+    border-radius: 50%;
+    margin-top: -112px;
+  }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .fa-camera:before {
+    content: "\f030";
+  }
+  
+  .fa-spin {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+  }
+  
+  
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+   .row:before {
+    display: table;
+    content: " ";
+  }
+  
+  .row:after {
+    clear: both;
+  }
+  
+  .text-nowrap {
+    white-space: nowrap;
+  }
+  
+  input[type=file] {
+    display: block;
+  }
+  
+  button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  .profile-username {
+    font-size: 21px;
+    margin-top: 5px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+      font-weight: 500;
+      line-height: 1.1;
+      color: inherit;
+  }

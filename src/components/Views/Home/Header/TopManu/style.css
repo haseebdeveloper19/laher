@@ -1,0 +1,42 @@
+.Top-Manus{
+	background-color: #f8f9fa;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.Top-Manus .Manus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Manus .first-manu{
+   width: 100%;
+   text-align: center;
+   overflow: hidden;
+}
+
+.first-manu ul li {
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.Manus .second-menu{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border: 1pt solid grey;
+
+ }
+ 
+ .second-menu ul li {
+     list-style: none;
+
+     float: left;
+     height: 100%;
+     margin-left: 10px;
+ }
+ 

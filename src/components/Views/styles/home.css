@@ -1,0 +1,160 @@
+
+#data{
+    width: 100%;
+    position: absolute;
+    margin-top: 45rem;
+    top: 0;
+    /* z-index: 10000; */
+    overflow: hidden;
+
+}
+
+#data .col-lg-3{
+    border:1pt solid #f7ececb3;
+    background-color: white;
+}
+
+.col-lg-3 .icon {
+   float: left;
+   color: green;
+  font-size: 16px;
+   padding-top:20px;
+    display:inline-table;
+}
+
+.col-lg-3 img{
+    display: inline-table;
+    float: left;
+    margin-top:10px;
+    margin-left: 15px;
+    width: 55px;
+    height: 45px;
+}
+
+.col-lg-3 p{
+  padding-top: 20px;
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+  float: left;
+}
+
+
+#data .col-lg-9{
+    border: 1pt solid #f7ececb3;
+    background-color: white;
+    padding: 6px;
+}
+
+.col-lg-9 p{
+    padding-top: 12px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    display: inline-table;
+}
+
+.col-lg-9 p span{
+    color: #c53535;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.col-lg-9 .btn{
+    float: right;
+    font-size: 14px;
+    margin: 5px;
+    
+    border-radius: 1px;
+    margin-top: 8px;
+    display: inline-table;
+}
+
+
+
+
+
+
+
+
+
+
+#Showdata{
+    border: 1pt solid yellow;
+    /* display: flex; */
+    padding: 10px;
+}
+#Showdata .page{
+    display: flex;
+    justify-content: space-between;
+}
+.page .hellow img{
+    width: 60px;
+    float: left;
+    height: 60px;
+}
+.hellow p{
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.hellow i{
+    float: left;
+    padding: 20px;
+}
+
+.page span{
+    width: 54%;
+    padding:15px;
+    border: 1pt solid yellow;
+}
+
+.page .btns{
+    overflow: hidden;
+    padding-top:10px;
+}
+
+.btns .btn-info{
+   margin-right: 8px;
+   font-size: 13px;
+}
+.btns .btn-success{
+    font-size: 13px;
+ }
+ 
+
+@media screen and (max-width: 996px) {
+    .page .hellow img{
+        width: 50px;
+        float: left;
+        margin-top: 15px;
+        height: 50px;
+    }
+    .page .hellow p{
+      
+        font-size: 13px;
+        float: left;
+        margin-left:93px;
+        margin-top: -50px;
+    }
+    .hellow i{
+        float: left;
+        padding-top: 30px;
+    }
+
+    .page span{
+        
+        border: 1pt solid yellow;
+    }
+
+    .btns .btn-info{
+        margin-right: 8px;
+        font-size: 10px;
+     }
+     .btns .btn-success{
+         font-size: 10px;
+      }
+
+}

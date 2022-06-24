@@ -1,0 +1,110 @@
+.contactus{
+    background-color: white;
+}
+
+.contact-title{
+    width: 100%;
+    background-color: black;
+    height: 320px;
+    
+
+}
+
+.contact-title h1{
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    
+}
+
+.contact-title h3{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+.form-contactus {
+
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.form-contactus .form-data{
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.form-data h3{
+    border-bottom: 1pt solid #cccc;
+    margin-bottom: 20px;
+}
+
+.form-data form label{
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.form-data form .submit{
+    margin-top: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+@media (max-width : 471px ){
+    .contact-title h3{
+        font-size: 18px;
+        
+        color:#fff;
+        text-align: center;
+    } 
+    .contact-title h1{
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        
+    }
+    
+  }
+
+
+  @media only screen and (max-width: 767px) {
+    .contact-title h3{
+        font-size: 18px;
+        
+        color:#fff;
+        text-align: center;
+    } 
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-title h3{
+        font-size: 18px;
+        
+        color:#fff;
+        text-align: center;
+    } 
+  }
+
+  
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .contact-title h3{
+        font-size: 18px;
+        
+        color:#fff;
+        text-align: center;
+    } 
+}
+
+@media only screen and (min-width: 1200px) {
+    .contact-title h3{
+        font-size: 20px;
+        
+        color:#fff;
+        text-align: center;
+    } 
+}

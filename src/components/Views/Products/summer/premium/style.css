@@ -1,0 +1,299 @@
+/* 
+$large = 1200px
+$latopp = 1024px
+$tab = 768px
+mobiel = 480px */
+
+
+
+
+body {
+    background-color: #eee
+}
+
+.t-products {
+    background-image: linear-gradient(to right top, #5629c0, #5625cb, #5620d5, #551ae0, #5412eb);
+    color: #fff;
+    border-radius: 3px
+}
+
+.processor {
+    background-color: #fff;
+    margin-top: 5px;
+    border-bottom: 1px solid #eee
+}
+
+.brand {
+    background-color: #fff;
+    border-bottom: 1px solid #eee
+}
+
+.type {
+    background-color: #fff
+}
+
+.product {
+    padding: 10px;
+    border: 1pt solid #eee;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    position: relative
+}
+
+.about span {
+    color: #5629c0;
+    font-size: 16px
+}
+
+.cart-button button {
+    font-size: 12px;
+    color: #fff;
+    background-color: #5629c0;
+    height: 38px
+}
+
+.cart-button button:focus,
+button:active {
+    font-size: 12px;
+    color: #fff;
+    background-color: #5629c0;
+    box-shadow: none
+}
+
+.product_fav i {
+    line-height: 40px;
+    color: #5629c0;
+    font-size: 15px
+}
+
+.product_fav {
+    display: inline-block;
+    width: 36px;
+    height: 39px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 11%;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 3px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.product_fav:hover {
+    background: #5629c0
+}
+
+.product_fav:hover i {
+    color: #fff
+}
+
+.about {
+    margin-top: 12px
+}
+
+.off {
+    position: absolute;
+    left: 65%;
+    top: 6%;
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    line-height: 8px;
+    border-radius: 5px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff
+}
+
+.product-container{
+    width: 100%;
+    
+}
+
+.product-image {
+    width: 100%;
+}
+.product-image #img {
+    width: 100%;
+}
+.product-link {
+  position: absolute;
+  background: #fff;
+  width: 100px;
+  color: black;
+  border-radius: 50%;
+  font-size: 25px;
+  text-align: center;
+  padding: 35px 0;
+  line-height: 25px;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+  opacity: 0;
+  transition: 1s;
+  font-style: italic;
+}
+
+.product-link:hover {
+  text-decoration: none;
+  color: #4FDAA4;
+}
+
+
+.hover-link {
+  background-color: #4FDAA4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.product-container:hover .product-image #img {
+    height: 250px;
+    transition: 1s;
+    /*padding: 10px;*/
+  }
+  .product-container:hover .product-option {
+    display: block;
+  }
+  .product-container:hover .hover-link {
+    opacity: 0.5;
+  }
+  .product-container:hover .product-link {
+    opacity: 1;
+  }
+  
+
+  #Filter{
+    display: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+.thumb-wrapper {
+	padding: 25px 15px;
+	background: #fff;
+	border-radius: 6px;
+	text-align: center;
+	position: relative;
+	box-shadow: 3px 3px 3px 5px rgba(0,0,0,0.2);
+}
+.thumb-wrapper .img-box {
+	height: 80px;
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+}
+.img-box img {	
+	width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+.thumb-content h4 {
+	font-size: 18px;
+    padding-top: 10px;
+}
+
+.thumb-content .btn {
+	color: #7ac400;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: none;
+	border: 1px solid #7ac400;
+	padding: 6px 14px;
+	margin-top: 5px;
+	line-height: 16px;
+	border-radius: 20px;
+}
+.thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+	color: #fff;
+	background: #7ac400;
+	box-shadow: none;
+}
+.thumb-content .btn i {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.item-price {
+	font-size: 13px;
+	padding: 2px 0;
+
+}
+.item-price strike {
+	opacity: 0.7;
+	margin-right: 5px;
+}
+
+.product-image{
+    display: flex;
+    justify-content: center;
+}
+
+.product-image img{
+    width: 100%;
+
+}
+
+.product-links {
+    position: absolute;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    color: black;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    padding: 35px 0;
+    line-height: 25px;
+    left: calc(50% - 50px);
+    top: calc(50% - 50px);
+    opacity: 0;
+    transition: 1s;
+    border: 1pt solid yellow;
+    font-style: italic;
+  }
+  
+  .product-links:hover {
+    text-decoration: none;
+    color: #4FDAA4;
+  }
+  
+  
+  .hover-link {
+    background-color: #4FDAA4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+  }
+  .product-container:hover .product-image {
+  transition: 1s;
+}
+.product-container:hover .product-option {
+  display: block;
+}
+.product-container:hover .hover-link {
+  opacity: 0.5;
+}
+.product-container:hover .product-links {
+  opacity: 1;
+}

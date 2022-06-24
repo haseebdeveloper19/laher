@@ -1,0 +1,35 @@
+.site-btn{
+    cursor: pointer;
+}
+p{
+    padding-top: 20px;
+    color: #000;
+}
+
+.site-btn:hover{
+   background-color: #000;
+   color: #fff;
+}
+
+.product-list li {
+    width: 100%;
+}
+.product-list li img {
+    width: 40%;
+    height: 40%;
+}
+.subdetal{
+    font-size: 14px;
+
+}
+
+.subtoal{
+    float: right;
+    font-size: 14px;
+}
+.checkout__order__total h4{
+    padding-bottom: 2rem;
+    font-size: 16px;
+    font-weight: 700;
+}
+

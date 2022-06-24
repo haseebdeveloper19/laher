@@ -1,0 +1,70 @@
+.sidebar{
+    height: 100%;
+    float: right;
+    width: 250px;
+    padding:10px;
+}
+
+.sidebar .lists{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sidebar ul li {
+    border-bottom: 1pt solid black;
+    list-style: none;
+    color: black;
+    padding: 10px;
+
+}
+
+.sidebar ul li:hover .lists {
+    background-color: #3e3e3e;
+    color: #fff;
+
+}
+
+
+
+.sidebar #accordion .card-heading li {
+
+    color: black;
+    
+}
+
+.sidebar .accordion .collapse ul li {
+
+    color: black;
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+
+    .sidebar ul li:hover {
+        background-color: #3e3e3e;
+        color: #fff;
+    
+    }
+
+    .sidebar{
+        z-index: 1000;
+    }
+
+    .sidebar #accordion .card-heading li:hover {
+
+        color: #fff;
+        
+        
+    }
+    
+    .sidebar #accordion .collapse ul li:hover {
+    
+        color: #fff;
+        
+    
+    }
+    
+    
+
+}

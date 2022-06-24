@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.footer__widget h6{
+   color: #ffff;
+}
+
+.footer__widget ul li {
+    color:#ffff
+}
+
+.footer .footer__about .footer__logo #logo_img {
+    width: 100%;
+    background-color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    
+}

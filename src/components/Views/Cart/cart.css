@@ -1,0 +1,99 @@
+#quntity-box{
+    border: 1pt solid yellow;
+    display: flex;
+}
+#quntity{
+    padding: 0px 30px 0px 30px;
+    font-size: 18px;
+}
+
+.cart_quantity_down{
+    font-size: 16px;
+}
+
+.breadcrumbs .breadcrumb li a:after {
+    content: "";
+    height: auto;
+    width: auto;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent #FE980F;
+    position: absolute;
+    top: 11px;
+    left: 58px;
+}
+
+#step_thankyou{
+    padding: 10px 0px 0px 30px;
+    font-size: 17px;
+
+}
+
+.tumb-row{
+    
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+#pro-qty{
+    display: flex;
+    justify-content: center;
+}
+
+#pro-qty .negtiv{
+ 
+    padding-right: 10px;
+
+}
+#pro-qty .postiv{
+ 
+    padding-left: 10px;
+
+}
+
+ .loder{
+      position:absolute; 
+      top:45% ;
+       height:100%; 
+       left:5% ;
+        right:5% }
+
+
+   @media (min-width : 480px) and (max-width:768px){
+    .loder{
+        position:absolute; 
+        top:30% ;
+         height:100%; 
+         left:5% ;
+          right:5% 
+        }
+        table{
+            width: 100%
+        }
+         #heading th {
+            font-size: 10px
+        }
+
+
+   }     
+
+   @media only screen and (max-width: 479px) {
+    .container {
+        max-width: 1198px;
+    }
+    #heading th{
+        font-size: 12px;
+        padding-left: 15px;
+    }
+
+    .spad{
+        margin-top: -3rem
+    }
+    
+  
+  
+    
+   
+    
+  }
+  

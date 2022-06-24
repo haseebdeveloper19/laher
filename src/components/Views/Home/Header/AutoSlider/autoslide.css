@@ -1,0 +1,90 @@
+
+.slider{
+	height: 25vw;
+	overflow: hidden;
+}
+/* -------------------------------------------------------- slide */
+.slider > ul {
+	height: 100%;
+	z-index: 100;
+}
+.slider > ul > li{
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	opacity: 0;
+	z-index: 1;	
+  	-webkit-transition: all 2000ms ease;
+  	-moz-transition: all 2000ms ease;
+  	-ms-transition: all 2000ms ease;
+  	-o-transition: all 2000ms ease;
+  	transition: all 2000ms ease;
+}
+.slider > #input-slide-0:checked ~ ul > li.slide-0,
+.slider > #input-slide-1:checked ~ ul > li.slide-1,
+.slider > #input-slide-2:checked ~ ul > li.slide-2,
+.slider > #input-slide-3:checked ~ ul > li.slide-3{
+	opacity: 1;
+	z-index: 2;
+}
+.slider > ul > li.slide-0{
+	background-color: #00DBF9;
+}
+.slider > ul > li.slide-1{
+	background-color: #47D7ED;
+}
+.slider > ul > li.slide-2{
+	background-color: #0093E9;
+}
+.slider > ul > li.slide-3{
+	background-color: #0073B6;
+}
+/* -------------------------------------------------------- arrow */
+.slider > .slider-arrow-prev,
+.slider > .slider-arrow-next {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 300;
+}
+.slider > .slider-arrow-prev > label,
+.slider > .slider-arrow-next > label {
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	margin-top: -2.5vw;
+	opacity: 0;
+	background-size: 100% auto;
+	background-position: center;
+
+	z-index: -1;
+  	-webkit-transition: all 0.5s ease;
+  	-moz-transition: all 0.5s ease;
+  	-ms-transition: all 0.5s ease;
+  	-o-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
+}
+.slider > #input-slide-0:checked ~ .slider-arrow-prev > label.slide-3,
+.slider > #input-slide-0:checked ~ .slider-arrow-next > label.slide-1, 
+.slider > #input-slide-1:checked ~ .slider-arrow-prev > label.slide-0,
+.slider > #input-slide-1:checked ~ .slider-arrow-next > label.slide-2, 
+.slider > #input-slide-2:checked ~ .slider-arrow-prev > label.slide-1,
+.slider > #input-slide-2:checked ~ .slider-arrow-next > label.slide-3, 
+.slider > #input-slide-3:checked ~ .slider-arrow-prev > label.slide-2,
+.slider > #input-slide-3:checked ~ .slider-arrow-next > label.slide-0 {
+	z-index: 1;
+}
+.slider:hover > .slider-arrow-prev > label,
+.slider:hover > .slider-arrow-next > label{
+	opacity: 1;
+}
+.slider > .slider-arrow-prev > label {
+	left: 5vw;
+	background-image: url('http://panikaro.interiowo.pl/img/arrow-left.png');
+}
+.slider > .slider-arrow-next > label {
+	right: 5vw;
+	background-image: url('http://panikaro.interiowo.pl/img/arrow-right.png');
+}

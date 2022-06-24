@@ -1,0 +1,29 @@
+
+.tumb{
+    border: 1pt solid #eeeeee;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background: whitesmoke;
+    height: 50px;
+    }
+
+    .tumb h3{
+        display: flex;
+        padding: 15px;
+        color: gray;
+        font-size: 18px;
+    }
+    
+    .tumb h4{
+        display: flex;
+       
+        color: gray;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .profile-img{
+        width: 100%;
+    
+    }

@@ -1,0 +1,13 @@
+#desc{
+    position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+   justify-content: center;
+   /* z-index: 99999; */
+   padding-top: 250px;
+   /* padding-left: 15rem; */
+   color: #ffffff;
+}
